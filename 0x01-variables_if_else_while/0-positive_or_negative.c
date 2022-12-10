@@ -3,12 +3,12 @@
 #include <time.h>
 
 #include <stdio.h>
-/*
- * main - initiating betty.
+/**
+ * main -initiating betty.
  *
- * Description: main
+ * Description:main
  *
- * Return: always 0 (Success)
+ * Return:always 0 (Success)
  */
 int main(void)
 {
