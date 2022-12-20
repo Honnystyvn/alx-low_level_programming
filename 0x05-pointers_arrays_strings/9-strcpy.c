@@ -10,7 +10,6 @@
  * @src: source.
  * Return: the pointer to dest.
  */
-
 char *_strcpy(char *dest, char *src)
 {
 	int count = 0;
@@ -19,8 +18,7 @@ char *_strcpy(char *dest, char *src)
 	{
 		*(dest + count) = *(src + count);
 		if (*(src + count) == '\0')
-
-			break
+			break;
 		count++;
 	}
 	return (dest);
